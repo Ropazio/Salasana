@@ -1,0 +1,42 @@
+body {
+
+	background: rgb(30,143,90);
+	background: radial-gradient(circle, rgba(30,143,90,1) 1%, rgba(108,19,76,1) 100%);
+	background-size: cover;
+	font-family: Papyrus, Didot, Fantasy;
+}
+
+.request {
+	text-align: center;
+	margin-top: 70px;
+	color: #CCC;
+}
+
+.wizard {
+	text-align: center;
+}
+
+img {
+	margin-top: 30px;
+	width: 30%;
+}
+
+.button {
+	margin-top: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+button {
+	border-radius: 10px;
+	background-color: darkmagenta;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+	color: #DDD;
+	padding: 15px 30px;
+	font-size: 20px;
+	font-family: Papyrus, Fantasy;
+}
+
+button:hover {
+	transform: scale(1.1);
+}
